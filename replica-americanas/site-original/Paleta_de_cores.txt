@@ -1,0 +1,6 @@
+Vermelho-Padrão: #F80032
+Vermelho-Secundario: #EA0D27
+Vermelho-link: #CD0114
+Branco-Padrão: #FFFFFF
+Amarelho-Padrão: #FFD900
+Cinza-de-Fundo: #F1F1F1
