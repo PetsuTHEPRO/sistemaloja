@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+
+div.barra-perfil{
+    background-color: #EBEBEB;
+    padding: 10px;
+}
+
+div.cabecalho{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+div.menu-loja{
+    background-color: #000;
+    padding: 13px;
+    color: #fff;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+input{
+    width: 350px;
+    height: 28px;
+    margin-top: 30px;
+
+    background-color: darkgrey;
+    color: #fff;
+    border-style: none;
+}
+
+p{
+    margin-left: 115px;
+}
+
+span.login{
+    margin-left: 0;
+    color:crimson;
+}
+
+.carrossel{
+    outline: 3px solid black;
+
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .7);
+}
+
+.carrossel ul{
+    list-style: none;
+}
+
+.carrossel li{
+    animation: slide 15s infinite ease-out;
+}
+
+.carrossel ul li img{
+    height: 100%;
+}
+
+@keyframes slide {
+    0%{left: 1000px;}
+    20%{left: 1000px;}
+
+    30%{left: 0px;}
+    50%{left: 0px}
+
+    60%{left: -1000px;}
+    90%{left: -1000px;}
+
+    100%{
+        left: 1000px;
+    }
+}
