@@ -2,6 +2,9 @@
 
 *{
     margin: 0;
+}
+
+body{
     background-color: #F1F1F1;
 }
 
@@ -14,6 +17,15 @@ header{
     height: 87px;
 
     background-color: #F80032;
+    color: #FFFFFF;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+div.profile{
+    display: flex;
+    align-items: center;
 }
 
 header img#logo-americanas{
